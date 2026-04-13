@@ -44,6 +44,7 @@ variable "bucket_prefix" {
 
 variable "owner_email" {
   type = string
+  default = "skjameelakhtar01@gmail.com"
 }
 
 resource "aws_s3_bucket" "logs" {
